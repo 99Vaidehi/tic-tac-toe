@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+#h1{
+    background-color:coral;
+    font-size:60px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: coral;
+    border-radius: 1rem;
+    box-shadow:  0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: black;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: coral;
+    border-radius: 1rem ;
+      
+}
+#new{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: coral;
+    border-radius: 1rem ;
+}
+#msg{
+    font-size: 8vmin;
+    font-display: bold;
+}
+.msg-con{
+    height: 30vmin;
+
+    gap:2rem;
+}
+.hide{
+    display: none;
+}
